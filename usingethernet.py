@@ -9,7 +9,7 @@ def connect_rigol(ip_address):
     return instrument
 
 # Replace '192.168.0.102' with the IP address of your Rigol instrument
-ip_address = '192.168.0.102'
+ip_address = '192.168.0.106'
 rigol_instrument = connect_rigol(ip_address)
 
 # Now you can communicate with the instrument using rigol_instrument
